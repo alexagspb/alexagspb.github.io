@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Clean Blog - Start Bootstrap Theme</title>
+  <title>Автовокзалы Тульской области</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -43,9 +43,6 @@
           <li class="nav-item">
             <a class="nav-link" href="#">Расписание отправлений автобусов</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Купить билет On-Line</a>
-          </li>
         </ul>
       </div>
     </div>
@@ -61,7 +58,10 @@
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
           <div class="site-heading">
-            <h2>Автовокзалы Тульской области</h2>
+            <div class="title">Автовокзалы Тульской области</div>
+            <div id="root"></div>
+            <button class="search-button" type="submit" form="ok">Найти</button>
+
           </div>
         </div>
       </div>
@@ -72,6 +72,16 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-8 col-md-10 mx-auto">
+
+        <div class="app_container">
+          <div class="app_txt">
+            Бесплатное мобильное приложение Автовокзалы Тульской области - <b>билеты на автобус.</b>
+          </div>
+          <div class="app_badge">
+            <a href="https://play.google.com/store/apps/details?id=ru.odnakassa.tula" target="_blank"><img class="badge_item" alt="Автовокзалы Тульской области" src="img/google-play-badge.png"></a>
+          </div>
+        </div>
+
         <div class="post-preview">
           <div class="post-title">
             ООО «Тульское областное объединение автовокзалов и пассажирских автостанций»
@@ -84,7 +94,7 @@
             on September 24, 2019</p> -->
         </div>
 
-        <div class="title">Телефоны автовокзалов и автостанций:</div>
+        <div class="subtitle">Телефоны автовокзалов и автостанций:</div>
 
         <table class="table table-striped">
           <thead>
@@ -211,6 +221,36 @@
 
   <!-- Custom scripts for this template -->
   <script src="js/clean-blog.min.js"></script>
+
+  <script>var isdev = window.location.href.indexOf('localhost') > -1;
+
+  var get = function get(x) {
+      return (window.location.href.match(new RegExp("".concat(x, "=([\\w\\-\\.\\_]+)"))) || [])[1];
+  };
+
+  window.__NO_ROUTER__ = true;
+  window.__INIT__ = {};
+  window.__INIT__['globals.agent_id'] = get('agent_id') || (isdev ? 4 : 220);
+  window.__INIT__['globals.secret_key'] = get('secret_key') || (isdev ? 'widget_secret_key' : '20o14qrt0010736qieqw25r32wp32i94');
+  window.__INIT__['globals.widget_id'] = get('widget_id') || 'ru.avtovokzaltula';</script>
+
+  <script type="text/javascript" src="https://frontend-core-dev.odnakassa.ru/widget.js"></script>
+
+  <!-- <script>
+  window.OKWIDGET = {init: a => a}
+</script>
+<script type='text/javascript' src="/apps//WidgetApp/index.js"></script> -->
+
+  <script>// window.OKWIDGET.create({
+    window.OKWIDGET.init({
+      type: 'inline',
+      element: 'root',
+      nobtn: true,
+      form_id: 'ok',
+      agent_id: window.__INIT__['globals.agent_id'],
+      secret_key: window.__INIT__['globals.secret_key'],
+      widget_id: window.__INIT__['globals.widget_id']
+    });</script>
 
 </body>
 
