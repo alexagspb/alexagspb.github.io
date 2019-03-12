@@ -114,32 +114,17 @@ img::-moz-selection {
   text-transform: uppercase;
 }
 
-.app_container {
-  display: flex;
-  padding: 0 30px;
+.badge_link {
+  display: block;
   text-align: center;
-  margin-bottom: 80px;
+  height: 60px;
+  position: relative;
+  background-color: #fff;
+  z-index: 10000;
 }
 
-.app_txt {
-  background: url(../img/logo130.png) no-repeat 0 0;
-  background-size: 100px;
-  width: 480px;
-  padding: 0px 30px 0px 130px;
-  line-height: 22px;
-  text-align: justify;
-  display: inline-block;
-  font-size: 16px;
-}
-
-.app_badge {
-  width: 150px;
-  display: inline-block;
-  vertical-align: top;
-}
-
-.badge_item {
-  max-width: 100%;
+.badge_img {
+  max-height: 100%;
 }
 
 .search-button {
@@ -156,8 +141,8 @@ img::-moz-selection {
   white-space: nowrap;
   padding: 0 20px;
   line-height: 44px;
-  background: #000;
-  border: 1px solid #000;
+  background: #0085A1;
+  border: 1px solid #0085A1;
   border-radius: 5px;
   height: 44px;
   outline: none;
@@ -183,8 +168,8 @@ img::-moz-selection {
     padding: 1.5rem 1rem;
   }
   #mainNav .navbar-brand {
-    height: 80px;
-    width: 130px;
+    height: 120px;
+    width: 200px;
     background: url(../img/logo130.png) no-repeat;
     background-size: contain;
     position: absolute;
@@ -210,6 +195,7 @@ img::-moz-selection {
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
     -webkit-backface-visibility: hidden;
+    margin-top: 60px;
   }
   #mainNav.is-fixed {
     /* when the user scrolls down, we hide the header right above the viewport */
@@ -222,9 +208,10 @@ img::-moz-selection {
     border-bottom: 1px solid white;
     background-color: rgba(255, 255, 255, 0.9);
     box-shadow: 0 0 10px #000;
+    margin-top: 0px;
   }
   #mainNav.is-fixed .navbar-brand {
-    color: #212529;
+    width: 130px;
   }
   #mainNav.is-fixed .navbar-brand:focus, #mainNav.is-fixed .navbar-brand:hover {
     color: #0085A1;
@@ -239,6 +226,7 @@ img::-moz-selection {
     /* if the user changes the scrolling direction, we show the header */
     -webkit-transform: translate3d(0, 100%, 0);
     transform: translate3d(0, 100%, 0);
+    z-index: 11111;
   }
 }
 
@@ -381,7 +369,7 @@ header.masthead .post-heading .meta a {
   text-align: center;
   font-weight: 700;
   font-size: 18px;
-  margin-bottom: 20px;
+  margin: 50px 0 20px;
 }
 
 .post-preview {
