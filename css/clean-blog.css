@@ -534,13 +534,13 @@ footer .copyright {
 
 @media only screen and (max-width: 1500px) {
     #video-background {
-        top: auto;
+      top: auto;
     }
 }
 
 @media only screen and (max-width: 992px) {
   #video-background {
-    top: 0;
+    display: none;
   }
 }
 
