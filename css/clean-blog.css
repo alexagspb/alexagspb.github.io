@@ -532,6 +532,12 @@ footer .copyright {
   padding: 25px 35px;
 }
 
+@media only screen and (max-width: 1500px) {
+    #video-background {
+        top: auto;
+    }
+}
+
 @media only screen and (max-width: 1024px) {
   #video-background {
     top: 0;
