@@ -538,7 +538,7 @@ footer .copyright {
     }
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 992px) {
   #video-background {
     top: 0;
   }
