@@ -103,7 +103,7 @@ a.h-al {
 
 .ez-psp-text {
     font-size: 1.1em;
-    background-image: url(/bitrix/images/ez.partiallysightedplugin/eye.png);
+    background-image: url(eye.png);
     background-repeat: no-repeat;
     background-position-x: left;
     background-position-y: center;
