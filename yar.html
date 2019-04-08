@@ -614,6 +614,58 @@
 		.search-button:hover {
 			opacity: 0.7;
 		}
+
+		.root_wrapper {
+			position: relative;
+			height: 76px;
+			text-align: center;
+			box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+		}
+
+		.loader {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			margin: -21px 0 0 -21px;
+			width: 42px;
+			height: 42px;
+			border: 1px solid rgb(204, 204, 204);
+			border-left-color: rgb(0, 0, 0);
+			border-radius: 974px;
+			animation: cssload-rotate 1150ms linear infinite;
+		}
+		.loader:before {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			margin: -22px 0 0 -22px;
+			width: 43px;
+			height: 43px;
+			border: 1px solid rgb(204, 204, 204);
+			border-left-color: rgb(0, 0, 0);
+			border-radius: 974px;
+			content: '';
+			animation: cssload-rotate 1150ms linear infinite;
+		}
+		.loader:after {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			margin: -22px 0 0 -22px;
+			width: 43px;
+			height: 43px;
+			border: 1px solid rgb(204, 204, 204);
+			border-left-color: rgb(0, 0, 0);
+			border-radius: 974px;
+			content: '';
+			animation: cssload-rotate 2300ms linear infinite;
+		}
+
+		@keyframes cssload-rotate {
+			100% {
+				transform: rotate(360deg)
+			}
+		}
 	</style>
 </head>
 
@@ -727,7 +779,8 @@
 						</div>
 					</div>
 				</div>
-				<div class="content">
+				<div class="content root_wrapper">
+					<div class="loader"></div>
 					<div id="root"></div>
 				</div>
 				<button class="search-button" type="submit" form="ok">Найти билеты</button>
