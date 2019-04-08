@@ -1,0 +1,510 @@
+header {
+    width: auto;
+    z-index: 1;
+    position: relative;
+    backface-visibility: hidden;
+}
+.body .rub {
+    font-family: RubPTSans !important;
+    font-size: 1em;
+}
+
+.body .rub:before {
+    content: none;
+}
+.blockquote, .h1, .h2, .h3, .h4, .h5, .h6, blockquote, body, code, h1, h2, h3, h4, h5, h6, kbd, pre, samp {
+
+}
+
+
+.h1, .h2, .h3, body, h1, h2, h3 {
+    font-weight: 400;
+}
+
+.body {
+    font-size: 1.6rem;
+    line-height: 1.25em;
+    color: #4A4A4A;
+    margin: 20px 0;
+   
+
+   
+
+}
+.body .icon {
+    background: none;
+
+}
+.body .blockquote,.body .h1,.body .h2,.body .h3,.body .h4,.body .h5,.body .h6,.body blockquote, .body ,.body code,.body h1,.body h2,.body h3,.body h4,.body h5,.body h6,.body kbd,.body pre,.body samp {
+    font-family: "Open Sans",Helvetica,Arial,sans-serif;
+}
+
+.body .h1,.body .h2,.body .h3,.body ,.body h1,.body h2,.body h3 {
+    font-weight: 400;
+}
+
+
+.body a, .body a:visited, .body a:link {
+    text-decoration: none;
+}
+.body.home {
+    margin-bottom: 2em;
+    margin-top: 2em;
+}
+.body .clear {
+    clear: both;
+    font-size: 1em;
+}
+
+.booker--page {
+    min-height: 50px
+}
+
+.booker.booker--page {
+    margin-top: 0;
+    padding-bottom: 0;
+    position: relative;
+}
+
+.body #layout {
+    background: transparent;
+}
+
+header.header--index {
+    background: transparent;
+    margin: 0;
+}
+
+.booker--page .bg {
+    display: none;
+}
+
+.agency #layout.index {
+    background: transparent;
+}
+
+.white #layout, #layout.white {
+    background: #fff;
+}
+
+.way {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    right: initial;
+    top: 15rem;
+    position: relative;
+    z-index: 1500;
+}
+.booker.booker--page .booker-submit input {
+    background-color: #1682e0;
+    background: -webkit-gradient(linear, left top, left bottom, from(#1682e0), to(#1682e0));
+    background: -webkit-linear-gradient(top, #1682e0, #1682e0);
+    background: -o-linear-gradient(top, #1682e0, #1682e0);
+}
+
+
+.booker.booker--page .booker-item .booker-typeahead {
+    box-shadow: none
+}
+
+.booker-suggest-popup .suggest .suggest-wrapper input {
+    box-shadow: none
+}
+
+.body header {
+    width: 100%;
+    z-index: 9;
+    position: relative;
+    backface-visibility: hidden;
+    background: none !important;
+}
+
+.body header .top-flex .logo {
+    float: none;
+    display: inline-block;
+    white-space: nowrap;
+    vertical-align: top;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    flex: 1 1;
+}
+
+.h2x .main_content {
+    padding-top: 0em;
+}
+
+#layout {
+    min-height: 100%;
+    padding-bottom: 0;
+}
+
+.body .main_content {
+    padding: 0
+}
+
+.heading .title {
+    margin: 0
+}
+
+.payment--list .rlist .payment--method, .payment--list .rlist label, .payment--list .rlist label input {
+    display: inline-block;
+    vertical-align: middle;
+    max-width: initial;
+    width: initial;
+    box-shadow: none;
+}
+
+.booker.booker--page .booker-container {
+    margin-bottom: 0
+}
+.booker-header h2 {
+    text-shadow: none;
+    text-align: center;
+    font-size: 36px;
+    line-height: 1.22;
+    margin: auto;
+    width: 805px;
+    color: #4A4A4A;
+}
+.body.home .booker--page .wr {
+    width: 100%;
+    max-width: 1160px;
+    padding: 2em 2em;
+    position: relative;
+
+    border-radius: 4px;
+}
+
+.body.home .booker .booker-typeahead-placeholder.transform {
+    -webkit-transform: scale(.75) translateY(-2.125em);
+    -moz-transform: scale(.75) translateY(-2.125em);
+    -ms-transform: scale(.75) translateY(-2.125em);
+    -o-transform: scale(.75) translateY(-2.125em);
+    color: #000;
+    padding-left: .75em;
+    line-height: 1em;
+    height: 1em;
+}
+
+.body.home ui-main-booker {
+    display: block;
+    border-radius: 5px;
+
+}
+
+.account .btn .text {
+    margin: 0;
+    margin-right: 1.25em;
+
+}
+
+#layout, body {
+    background: transparent !important;
+}
+
+.booker.booker--page .booker-submit input:active, .booker.booker--page .booker-submit input:focus, .booker.booker--page .booker-submit input:hover {
+    background: #154889;
+}
+
+.dropdown-menu.dropdown-menu--is-open {
+
+    display: block;
+}
+
+@media (max-width: 767px) {
+    .body.home ui-main-booker {
+        display: block;
+        border-radius: 5px;
+        padding: 10px;
+        background: rgba(0, 0, 0, 0.25);
+    }
+}
+
+@media (max-width: 768px) {
+
+    .way {
+        width: 100%;
+        height: 100%;
+        background-size: contain;
+        top: 4rem !important;
+    }
+
+    .booker.booker--page .booker-container {
+        margin-bottom: 0;
+        padding: 0;
+    }
+}
+
+.booker .booker-item .booker-typeahead {
+    box-shadow: none
+}
+.booker .booker-wrapper {
+    background: #fff;
+    border-radius: .25em 0 0 .25em;
+    box-shadow: inset 0 0.125em 0.0625em rgba(0,0,0,.03);
+    margin-right: 16.5rem;
+    position: relative;
+    border-right: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+.booker .booker-submit input {
+    cursor: pointer;
+    background: #1682e0 !important;
+    color: #fff;
+    width: 100%;
+    outline: 0;
+    height: 100%;
+    border: none;
+    font-weight: 400;
+    border-radius: 0 .125em .125em 0;
+    line-height: 1em;
+
+    padding: 0;
+}
+div.b-menu_main ul li.sub ul {
+    box-shadow: 0px 1px 4px -1px;
+}
+.error.msg, .ui-personal-return-form .error.msg {
+    margin-top: 1em;
+    font-size: .875em;
+    color: #dd4b39!important;
+    padding: 0;
+    border: none;
+    width: auto;
+    margin: 0;
+}
+.rlist .tr {
+
+    text-align: left;
+}
+
+.modal .modal-dialog {
+
+    font-family: "Open Sans",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+}
+.page--checkout .global--loader_container, .page--checkout  .relative--loader_container {
+    min-height: 280px;
+    position: relative;
+}
+
+.payment--list .rlist .payment--name .payment--icon.icon-avudm_sber_equiring_rur:after, .payment--list .rlist .payment--name .payment--icon.icon-itt_sber_equiring_rur:after, .payment--list .rlist .payment--name .payment--icon.icon-sber_equairing:after, .payment--list .rlist .payment--name .payment--icon.icon-sber_kassa38_rur:after {
+    top: 0;
+
+}
+
+#full-clndr {
+    width: 15em;
+    background-color: #fff;
+    margin: 0 auto;
+    border: .0625em solid #e4e4e4;
+    border-top: 0;
+    font-family: "Open Sans",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+}
+
+#full-clndr .clndr-grid .days .day.in-range.start .day-number, #full-clndr .clndr-grid .days .empty.in-range.start .day-number {
+    border-radius: .25em 0 0 .25em;
+    border-left: .085em solid #0b47a1;
+}
+
+#full-clndr .clndr-grid .days .day.in-range.end .day-number, #full-clndr .clndr-grid .days .empty.in-range.end .day-number {
+    border-radius: 0 .25em .25em 0;
+    border-right: .085em solid #0b47a1;
+}
+
+.calendar-error {
+    padding: 0 0 .75em;
+    text-align: center;
+    font-family: "Open Sans",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+}
+
+.calendar-loading img+p {
+    font-family: "Open Sans",Helvetica,Arial,sans-serif;
+    font-size: 13px;
+}
+header .account {
+    float: right;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.page--text p {
+    margin-bottom: 1em !important;
+    line-height: 1.5em;
+}
+
+.page--text .text--content {
+    background: #fff;
+    border-radius: .25em;
+    padding: 2.25em 0em;
+}
+
+.b-map .b-point {
+
+    z-index: 2;
+}
+
+.booker-suggest .booker-suggest-item a.icon {
+    background: none;
+    width: auto;
+    height: auto;
+    display: block;
+    vertical-align: middle;
+}
+
+
+
+header .support--link a {
+
+    color: #000;
+
+}
+
+
+.account .btn.btn--stroke.btn--white.btn--m {
+    box-shadow: 0 0 0 1px #000 inset;
+}
+header.header--inner .account .xs, header.header--inner .account a.acc-name, header.header--inner .logo-link a, header.header--inner .main-nav .link, header.header--inner .main-nav .link:hover, header.header--inner .main-nav .ui.secondary.menu .link.item:hover, header.header--inner .main-nav .ui.secondary.menu a.item:hover {
+    color: #000;
+}
+
+.booker .eyebrow-note {
+    color: #000;
+}
+.max-width {
+    max-width: 1280px;
+    margin: 0 auto;
+    width:1140px;
+}
+div[ui-view="content"] {
+    width: 1140x;
+    margin: 0 auto;
+}
+
+header .top-flex .logo .logo-flex .logo-link a {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: block;
+   
+}
+
+.page--checkout {
+    font-size: 1.6rem;
+    padding-top: 2.1875em;
+}
+
+header {
+    width: auto;
+    z-index: 999;
+    position: relative;
+    backface-visibility: hidden;
+}
+
+.body .dropdown-toggle::after {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: .3em;
+    vertical-align: middle;
+    content: none;
+    border-top: .3em solid;
+    border-right: .3em solid transparent;
+    border-left: .3em solid transparent;
+}
+
+.heading--menu .heading--menu-wrapper {
+    padding: 0 1.825em;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.heading .heading--wrapper {
+        background: transparent;
+}
+
+.home .booker.booker--page .booker-container {
+      margin-bottom: 0;
+    border-radius: 6px;
+    box-shadow: 0 8px 20px rgba(214, 221, 231, 1);
+    width: 866px;
+    margin: 0 auto;
+}
+
+.home .booker.booker--page .booker-wrapper {
+    border: 0;
+    border-right: 0;
+}
+a.top-btn, a.top-btn:active, a.top-btn:hover {
+    background-color: #1682e0;
+}
+.booker .eyebrow-note {
+    display:none;
+}
+.booker .booker-typeahead-placeholder.transform {
+   
+    color: #000;
+   
+}
+.home .booker .booker-typeahead-placeholder {
+    height: 3.5em;
+    line-height: 3.5em;
+}
+.booker .booker-typeahead-placeholder {
+    
+    height: 2.25em;
+    line-height: 2.25em;
+   
+}
+
+header .account, header .support--link {
+    float: right;
+    margin-top: 1em;
+}
+
+.booker-suggest {
+    border: 1px solid #E4E4E4;
+    box-shadow: 0 1em 1em 0 rgba(0,0,0,.1);
+    background-color: #FFF;
+    border-top: none;
+    margin-top: 2px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 1001;
+    height: auto;
+       max-height: inherit;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+.dropdown-menu.dropdown-menu--is-open {
+    position: absolute;
+    border-radius: 2px;
+    background-color: #fff;
+    text-align: left;
+    opacity: 0;
+    overflow: auto;
+    border: 1px solid #E4E4E4;
+    box-shadow: 0 1em 1em 0 rgba(0,0,0,.1);
+    box-sizing: content-box;
+    float: none;
+    top: auto;
+    padding: 0;
+    margin: 0;
+    font-size: 1em;
+}
+
+#full-clndr .clndr .row{
+  display: block;
+  margin-right: 0;
+  margin-left: 0;
+}
