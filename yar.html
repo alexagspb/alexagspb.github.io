@@ -1267,11 +1267,18 @@
 		</script>
 	</div>
 	<script>
+        var url_string = window.location.href
+        var url = new URL(url_string);
+        var agent_id = url.searchParams.get("agent_id");
+        var secret_key = url.searchParams.get("secret_key");
+        var widget_id = url.searchParams.get("widget_id");
+
 		window.__NO_ROUTER__ = true;
 		window.__INIT__ = {};
-		window.__INIT__['globals.agent_id'] = 217;
-		window.__INIT__['globals.secret_key'] = 'rxryX8Hwe1VmQUtiXGwW';
-		window.__INIT__['globals.widget_id'] = 'ru.avtovokzaltula';
+		window.__INIT__['globals.agent_id'] = agent_id || 217;
+		window.__INIT__['globals.secret_key'] = secret_key || 'rxryX8Hwe1VmQUtiXGwW';
+		window.__INIT__['globals.widget_id'] = widget_id || 'ru.avtovokzaltula';
+
 	</script>
 
 	<script type="text/javascript" src="https://static.odnakassa.ru/widget.js"></script>
