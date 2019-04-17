@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>MediaRecorder</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      body{
+        width: 90%;
+        max-width: 960px;
+        margin: 0px auto;
+        font-family: 'Arial', 'sans-serif';
+      }
+      button{
+        font-weight: 700;
+        padding: 8px 30px;
+        font-size: 16px;
+        margin: 10px 0;
+      }
+      ul {
+        margin: 0;
+        padding: 0;
+      }
+      li{
+        margin: 10px 0;
+        list-style-type: none;
+      }
+      a {
+        display: inline-block;
+        vertical-align: top;
+        background: #f9f9f9;
+        font-size: 12px;
+        border-radius: 5px;
+        margin: 10px 5px;
+        padding: 10px;
+        color: #000;
+      }
+      input {
+        display: inline-block;
+        vertical-align: top;
+        margin: 1px 4px 0 10px;
+      }
+      a:hover {
+        text-decoration: none;
+      }
+      #radio {
+        padding: 20px 0;
+      }
+      #buttons{
+        display: none;
+        padding: 10px 0 10px;
+      }
+      #recording {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div id='radio'>
+      <div>
+      Запись:
+        <input type="radio" name="media" value="video" id='mediaVideo'>Видео
+        <input type="radio" name="media" value="audio" checked>Аyдио
+      </div>
+      <button class="btn btn-default"  id='media_btn'>Начать запись</button>
+    </div>
+    <div id='buttons'>
+      <button  class="btn btn-default" id='start'>Старт</button>
+      <button  class="btn btn-default" id='stop'>Стоп</button>
+    </div>
+    <div>
+      <ul id='ul'></ul>
+      <h3 id='recording'>Идет запись...</h3>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
